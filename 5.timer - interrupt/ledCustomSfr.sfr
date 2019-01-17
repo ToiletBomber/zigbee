@@ -1,0 +1,20 @@
+[Sfr]
+sfr = "TL0",	"SFR",	0x8a,	1,	base=16,	modified
+sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
+sfr = "DPL",	"SFR",	0x82,	1,	base=16,	modified
+sfr = "IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IE.EX0",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IE.ET0",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IE.ES",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IP",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "TCON.TF1",	"SFR",	0x88,	1,	base=16,	modified
+sfr = "TMOD.C_T1",	"SFR",	0x89,	1,	base=16,	modified
+sfr = "P1.T2",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P3",	"SFR",	0xb0,	1,	base=16,	modified
+sfr = "P3.TxD",	"SFR",	0xb0,	1,	base=16,	modified
+sfr = "IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IP",	"SFR",	0xb8,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "TL0", "P0"

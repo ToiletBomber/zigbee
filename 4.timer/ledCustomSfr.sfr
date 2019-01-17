@@ -1,16 +1,9 @@
 [Sfr]
 sfr = "IE",	"SFR",	0xa8,	1,	base=16,	modified
-sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
-sfr = "IE.ET0",	"SFR",	0xa8,	1,	base=16,	modified
-sfr = "IE.EX1",	"SFR",	0xa8,	1,	base=16,	modified
-sfr = "IE.ET2",	"SFR",	0xa8,	1,	base=16,	modified
 sfr = "IP",	"SFR",	0xb8,	1,	base=16,	modified
-sfr = "IP.PT1",	"SFR",	0xb8,	1,	base=16,	modified
-sfr = "TCON.IE0",	"SFR",	0x88,	1,	base=16,	modified
-sfr = "TMOD.GATE1",	"SFR",	0x89,	1,	base=16,	modified
 sfr = "TL0",	"SFR",	0x8a,	1,	base=16,	modified
+sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
 
 
 [SfrGroupInfo]
-group = "Custom", "IE"
-group = "Custom", "P0"
+group = "Custom", "IE", "IP", "TL0", "P0"
